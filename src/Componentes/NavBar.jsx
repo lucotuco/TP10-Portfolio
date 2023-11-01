@@ -11,11 +11,11 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home"><HouseDoorFill/></Navbar.Brand>
+        <Navbar.Brand href="/Home"><HouseDoorFill/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#MisCreaciones">Mis Creaciones</Nav.Link>
+            <Nav.Link href="/MisCreaciones">Mis Creaciones</Nav.Link>
             <Nav.Link href="#MasInfo">Mas Info</Nav.Link>
             <div className='corazoncito'>
               <Nav.Link href="#Favoritos"><BookmarkHeart/></Nav.Link>
