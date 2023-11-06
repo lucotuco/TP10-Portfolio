@@ -16,9 +16,9 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/MisCreaciones">Mis Creaciones</Nav.Link>
-            <Nav.Link href="#MasInfo">Mas Info</Nav.Link>
+            <Nav.Link href="/MasInfo">Mas Info</Nav.Link>
             <div className='corazoncito'>
-              <Nav.Link href="#Favoritos"><BookmarkHeart/></Nav.Link>
+              <Nav.Link href="/Favoritos"><BookmarkHeart/></Nav.Link>
             </div>
           </Nav>
         </Navbar.Collapse>

@@ -10,6 +10,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-1.jpg",
         date: "2023-01-15",
         url: "https://www.ejemplo.com/proyecto1",
+        favorito:false,
     },
     {
         id: 2,
@@ -18,6 +19,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-2.jpg",
         date: "2023-02-20",
         url: "https://www.ejemplo.com/proyecto2",
+        favorito:false,
     },
     {
         id: 3,
@@ -26,6 +28,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-3.jpg",
         date: "2023-03-10",
         url: "https://www.ejemplo.com/proyecto3",
+        favorito:false,
     },
     {
         id: 4,
@@ -34,6 +37,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-4.jpg",
         date: "2023-04-05",
         url: "https://www.ejemplo.com/proyecto4",
+        favorito:false,
     },
     {
         id: 5,
@@ -42,6 +46,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-5.jpg",
         date: "2023-05-18",
         url: "https://www.ejemplo.com/proyecto5",
+        favorito:false,
     },
     {
         id: 6,
@@ -50,6 +55,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-6.jpg",
         date: "2023-06-30",
         url: "https://www.ejemplo.com/proyecto6",
+        favorito:false,
     }, {
         id: 7,
         title: "Mar Profundo",
@@ -57,6 +63,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-7.jpg",
         date: "2023-07-10",
         url: "https://www.ejemplo.com/proyecto7",
+        favorito:false,
     },
     {
         id: 8,
@@ -65,6 +72,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-8.jpg",
         date: "2023-08-25",
         url: "https://www.ejemplo.com/proyecto8",
+        favorito:false,
     },
     {
         id: 9,
@@ -73,6 +81,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-9.jpg",
         date: "2023-09-12",
         url: "https://www.ejemplo.com/proyecto9",
+        favorito:false,
     },
     {
         id: 10,
@@ -81,6 +90,7 @@ const fakeProjects = [
         imageUrl: "url-de-la-imagen-10.jpg",
         date: "2023-10-05",
         url: "https://www.ejemplo.com/proyecto10",
+        favorito:false,
     },
 ];
 // Create a provider component
