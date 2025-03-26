@@ -5,6 +5,9 @@ import { ProjectContext } from '../Context/AuthContext';
 function DetallesProyecto() {
   const { projectId } = useParams();
   const { projects } = useContext(ProjectContext);
+  if (!projects) {
+    return <p>Cargando...</p>;
+  }
   const project = projects.find((item) => String(item.id) === String(projectId));
   console.log(project);
 
@@ -17,7 +20,7 @@ function DetallesProyecto() {
           <p>{project.description}</p>
           <img src={project.imageUrl} alt={project.title} />
           <p>Date: {project.date}</p>
-          <a href={project.url}>URL</a>
+          <a href={project.url}>Descargar</a>
           
         </div>
       )}

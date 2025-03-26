@@ -10,9 +10,13 @@ import { ProjectProvider } from './Context/AuthContext.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ProjectProvider>
   <React.StrictMode>
-    <NavBar/>
-    <App />
+  <div className="app-container">
+    <div className="main-content">
+      <NavBar/>
+      <App />
+    </div>
     <Footer/>
+  </div>
   </React.StrictMode>,
   </ProjectProvider>
 )

@@ -1,7 +1,7 @@
 .form {
     background: #0e101c;
     max-width: 400px;
-    margin: 0 auto;
+    margin:auto;
   }
   
   
@@ -13,7 +13,7 @@
     border-radius: 4px;
     border: 1px solid white;
     padding: 10px 15px;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     font-size: 14px;
   }
   
@@ -21,7 +21,7 @@
     line-height: 2;
     text-align: left;
     display: block;
-    margin-bottom: 13px;
+    /*margin-bottom: 13px;*/
     margin-top: 20px;
     color: white;
     font-size: 14px;
@@ -71,7 +71,7 @@
   
   .App {
     max-width: 600px;
-    margin: 0 auto;
+    margin: auto;
   }
   
   button[type="button"] {

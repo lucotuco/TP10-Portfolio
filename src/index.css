@@ -1,0 +1,24 @@
+/* Asegura que toda la página use flexbox */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#root, .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* La página ocupa toda la altura de la pantalla */
+}
+
+.main-content {
+    flex: 1; /* Empuja el footer hacia abajo */
+}
+
+footer {
+    width: 100%;
+    background: #0e101c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
